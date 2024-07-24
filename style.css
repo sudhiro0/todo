@@ -1,0 +1,70 @@
+body{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+.containerMain{
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+}
+.Mainbox{
+    border: 2px solid rgb(128, 58, 0);
+    display: flex;
+    text-align: center;
+    
+    justify-content: center;
+    position:absolute;
+    margin-top: 100px;
+   float: left;
+    height: 20rem;
+    width: 20rem;
+
+
+}
+
+.box1{
+    
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: large;
+    /* margin-left: 25px; */
+   width: 350px;
+   height: 30px;
+  
+  
+    cursor: pointer;
+}
+.box1 input{
+    font-size: large;
+    border: 1px;
+}
+.box1 button{
+    font-size: large;
+   
+}
+ .Mainbox .box2{
+   
+    border: 2px solid red;
+    overflow: auto;
+   
+   margin-top: 200px;
+ position: absolute;
+ width: 250px;
+ height: 100px;
+ 
+   
+}
+#taskname{
+    width: 250px;
+    height: 20px;
+    background-color: beige;
+    margin: 2px;
+   display:  table;
+   text-decoration: dotted;
+    font-size: large;
+
+}
